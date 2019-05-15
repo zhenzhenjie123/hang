@@ -1,0 +1,1025 @@
+/**头部*/
+header{
+    width: 1180px;
+    margin: auto;
+    height: 80px;
+
+}
+header .logo img{
+    float: left;
+}
+header .head img{
+    float: right;
+
+}
+/**导航*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    height: 40px;
+    background-color: #3b8de3;
+}
+.two{
+    width: 1180px; height: 100%;
+    margin: auto;
+}
+.left{
+    width:690px;
+    height: 100%;
+    float: left;
+}
+.right{
+    float: right;
+    width:260px;
+    height: 100%;
+    background-color: #0185e1;
+    position: relative;
+}
+.two a{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+.left a{
+    width: 20%;
+    height: 100%;
+
+}
+.right a{
+    width: 33.333333%;
+}
+.two .left .active{
+    color: blue;
+    background-color: white;
+    border-top: 2px orange solid;
+}
+.left a:hover{
+    color: blue;
+    background-color: white;
+    border-top: 2px orange solid;
+}
+.right a:hover{
+    background-color: rgb(3,120,201);
+
+}
+.back{
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -315px -498px;
+
+}
+.sanjiao{
+    width: 0px; height: 0px;
+    border-top: white 8px solid;
+    border-left: #0185e1 4px solid;
+    border-right: #0185e1 4px solid;
+    position: absolute;
+    right: 2px;
+    top: 16px;
+}
+/*热门城市*/
+.hot{
+    width: 1180px;
+    height: 40px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 13px;
+}
+.hot .hotcity{
+
+    float: left;
+}
+.hot .city{
+    float: left;
+}
+.hot .city a{
+    text-decoration: none;
+    color:#0185e1;
+    margin: 0 3px;
+}
+/*轮播图*/
+.whole-pictures{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    margin: 0;
+}
+.whole-pictures .pic1{
+    width: 100%;
+    height: 380px;
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    z-index: 1;
+
+}
+.whole-pictures .pic2{
+    width: 100%;
+    height: 380px;
+    background-image: url("../img/2.png") ;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:0;
+    top:0;
+    background-position: center;
+}
+.whole-pictures .but{
+    width:100px;
+    height: 20px;
+    position: absolute;
+    right: 210px;
+    bottom:10px;
+    z-index: 3;
+}
+.whole-pictures .but .but1{
+     width:37px;
+     height: 7px;
+     background-color: orange;
+     float: left;
+ }
+.whole-pictures .but .but2{
+     width:37px;
+     height: 7px;
+     background-color: #000;
+    z-index: 3;
+     float: right;
+}
+/*热门航线预定*/
+.hotlink{
+
+    width:1180px;
+    height: 440px;
+    margin: auto;
+    margin-top: 40px;
+}
+.hotlink .hotlinkone{
+    height: 50px;
+    width: 98.5%;
+    border-bottom: 3px #999999 solid;
+}
+.hotlinkleft{
+    float: left;
+    font-size: 28px;
+}
+.hotlinkright{
+    margin-top: 5px;
+    float: right;
+    width: 800px;
+    height: 100%;
+
+    font-size: 18px;
+}
+.hotlinkright a{
+    height: 48px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    float: left;
+    width: 10%;
+}
+.hotlinkright .active{
+    background-color: rgb(200,227,252);
+    color:#3b8de3;
+    border-bottom: #3b8de3 2px solid;
+}
+.hotlinkright a:hover{
+    color:#3b8de3;
+    border-bottom: blue 3px solid;
+}
+.hotlinktwo{
+    width: 100%;
+    height: 360px;
+
+    overflow: hidden;
+    margin: auto;
+}
+.hotlinktwo .fly1{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+}
+.hotlinktwo .fly1 .fly11{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.fly11 .zi1{
+    width:32px;
+    height: 21px;
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+    
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+     
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly11 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly11 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly11 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly11 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly11 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly1 .fly11:hover {
+    background: url("../img/go.png") no-repeat -227px;
+
+
+}
+.fly11:hover+zi1{
+    background-color: red;
+
+}
+.hotlinktwo .fly2{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly2 .fly21{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.fly21 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly21 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly21 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly21 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly21 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly21 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly3{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly3 .fly31{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.fly31 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly31 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly31 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly31 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly31 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly31 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly4{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly4 .fly41{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.fly41 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly41 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly41 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly41 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly41 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly41 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly5{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly5 .fly51{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.fly51 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly51 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly51 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly51 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly51 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly51 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly6{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly6 .fly61{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly61 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.fly61 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly61 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly61 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly61 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly61 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly7{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly7 .fly71{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly71 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.fly71 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly71 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly71 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly71 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly71 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly8{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly8 .fly81{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly81 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.fly81 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly81 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly81 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly81 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly81 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly9{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly9 .fly91{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly91 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.fly91 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly91 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly91 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly91 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly91 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+.hotlinktwo .fly10{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+}
+.hotlinktwo .fly10 .fly101{
+    width:94% ;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("../img/go.png") no-repeat -3px;
+}
+.jiantou{
+    width: 40px; height: 5px;
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -29px -79px;
+}
+.feiji{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+
+    left: 48px;
+    bottom: 20px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-position: -39px -107px;
+}
+.fly101 .zi1{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    right: 143px;;
+    top: 20px;
+
+}
+.fly101 .zi2{
+    font-size: 16px;
+    color: #0055aa;
+    position: absolute;
+    left: 143px;
+    top:20px;
+}
+.fly101 .zi3{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    top:60px;
+    left: 82px;
+}
+.fly101 .zi4{
+    font-size: 14px;
+    color: #0055aa;
+    position: absolute;
+    left: 72px;
+    bottom: 20px;
+    font-family: SimSun-ExtB;
+}
+.fly101 .zi5{
+    font-size: 16px;
+    color: #ff6600;
+    position: absolute;
+    left: 120px;
+    bottom: 19px;
+}
+.fly101 .zi6{
+    font-size: 28px;
+    color: #ff6600;
+    position: absolute;
+    font-family: Arial;
+    left: 140px;
+    bottom: 18px;
+}
+
+
