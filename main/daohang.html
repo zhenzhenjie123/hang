@@ -24,6 +24,9 @@
             float: left;
         }
         .right{
+            background-image: url("/img/yonghu.png");
+            background-repeat: no-repeat;
+
             float: right;
             width:240px;
             height: 100%;
@@ -49,10 +52,20 @@
             background-color: white;
             border-top: 2px orange solid;
         }
-        a:hover{
+        .left a:hover{
             color: blue;
             background-color: white;
             border-top: 2px orange solid;
+        }
+        .right a:hover{
+            background-color: rgb(3,120,201);
+
+        }
+        a.back{
+            background-image: url("/img/img.png");
+            background-repeat: no-repeat;
+            background-position: -315px -500px;
+
         }
     </style>
 </head>
@@ -67,7 +80,7 @@
                 <a href="">民航问答</a>
             </div>
             <div class="right">
-                <a href="">登录</a>
+                <a href="" class="back">登录</a>
                 <a href="">注册</a>
                 <a href="">用户中心</a>
             </div>
