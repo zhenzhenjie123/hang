@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac68ae8-f230-4a5c-b503-143a9018f820" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/daohang.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/go.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/daohang.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/daohang.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/daohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/daohang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/daohang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/float.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wenzi.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,15 +20,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daohang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -49,7 +36,18 @@
                 <element signature="n#div#6;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#7;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#8;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#9;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#9;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -69,10 +67,10 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/daohang.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="239">
               <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
               <folding>
                 <element signature="e#14#73#0" />
@@ -96,11 +94,17 @@
                 <element signature="e#1440#1460#0" />
                 <element signature="e#1473#1541#0" />
                 <element signature="e#1565#1643#0" />
-                <element signature="e#1665#1839#0" />
-                <element signature="e#1861#2035#0" />
-                <element signature="e#2043#2156#0" />
-                <element signature="e#2206#2274#0" />
-                <element signature="e#2301#2365#0" />
+                <element signature="e#1665#1880#0" />
+                <element signature="e#1902#2099#0" />
+                <element signature="e#2120#2233#0" />
+                <element signature="e#2260#2348#0" />
+                <element signature="e#2375#2477#0" />
+                <element signature="e#2497#2578#0" />
+                <element signature="e#2689#2730#0" />
+                <element signature="e#2744#2844#0" />
+                <element signature="e#2860#3035#0" />
+                <element signature="e#3057#3157#0" />
+                <element signature="e#3179#3236#0" />
               </folding>
             </state>
           </provider>
@@ -144,6 +148,8 @@
       <find>left: 50px</find>
       <find>right: 50px;</find>
       <find>right: 143px;</find>
+      <find>width:94% ;</find>
+      <find>height: 80%;</find>
     </findStrings>
     <replaceStrings>
       <replace>93%</replace>
@@ -152,6 +158,7 @@
       <replace>left: 72px;</replace>
       <replace>right: 145px</replace>
       <replace>left: 143px;</replace>
+      <replace>height:134px;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,6 +179,7 @@
         <option value="$PROJECT_DIR$/main/daohang.html" />
         <option value="$PROJECT_DIR$/daohang.html" />
         <option value="$PROJECT_DIR$/css/daohang.css" />
+        <option value="$PROJECT_DIR$/test/test.html" />
       </list>
     </option>
   </component>
@@ -187,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,16 +208,10 @@
               <item name="webSoreProject" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webSoreProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webSoreProject" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +267,8 @@
       <workItem from="1557838366497" duration="4076000" />
       <workItem from="1557878624890" duration="5617000" />
       <workItem from="1557884807822" duration="28082000" />
-      <workItem from="1557924076657" duration="18792000" />
+      <workItem from="1557924076657" duration="19367000" />
+      <workItem from="1557964513464" duration="2205000" />
     </task>
     <task id="LOCAL-00001" summary="加了背景图片">
       <created>1557899688824</created>
@@ -287,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557906734125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="多了很多">
+      <created>1557943584654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557943584654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77927000" />
+    <option name="totallyTimeSpent" value="80707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -307,7 +318,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3337989" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -322,7 +333,8 @@
     <MESSAGE value="加了背景图片" />
     <MESSAGE value="加号了" />
     <MESSAGE value="l" />
-    <option name="LAST_COMMIT_MESSAGE" value="l" />
+    <MESSAGE value="多了很多" />
+    <option name="LAST_COMMIT_MESSAGE" value="多了很多" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wenzi.html" />
@@ -334,16 +346,16 @@
     <entry file="file://$PROJECT_DIR$/main/img.png" />
     <entry file="file://$PROJECT_DIR$/test/background.html" />
     <entry file="file://$PROJECT_DIR$/test/position.html" />
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/img/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/1.png">
+    <entry file="file://$PROJECT_DIR$/img/yonghu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/yonghu.png">
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/img.png">
@@ -352,34 +364,15 @@
     <entry file="file://$PROJECT_DIR$/img/head.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/go.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/img/go.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/daohang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/daohang.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="239">
           <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
           <folding>
             <element signature="e#14#73#0" />
@@ -403,12 +396,49 @@
             <element signature="e#1440#1460#0" />
             <element signature="e#1473#1541#0" />
             <element signature="e#1565#1643#0" />
-            <element signature="e#1665#1839#0" />
-            <element signature="e#1861#2035#0" />
-            <element signature="e#2043#2156#0" />
-            <element signature="e#2206#2274#0" />
-            <element signature="e#2301#2365#0" />
+            <element signature="e#1665#1880#0" />
+            <element signature="e#1902#2099#0" />
+            <element signature="e#2120#2233#0" />
+            <element signature="e#2260#2348#0" />
+            <element signature="e#2375#2477#0" />
+            <element signature="e#2497#2578#0" />
+            <element signature="e#2689#2730#0" />
+            <element signature="e#2744#2844#0" />
+            <element signature="e#2860#3035#0" />
+            <element signature="e#3057#3157#0" />
+            <element signature="e#3179#3236#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daohang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#9;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
