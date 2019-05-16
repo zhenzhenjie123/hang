@@ -148,7 +148,7 @@ body{
      width:37px;
      height: 7px;
      background-color: #000;
-    z-index: 3;
+     z-index: 3;
      float: right;
 }
 /*热门航线预定*/
@@ -161,7 +161,7 @@ body{
 }
 .hotlink .hotlinkone{
     height: 50px;
-    width: 98.5%;
+    width: 100%;
     border-bottom: 3px #999999 solid;
 }
 .hotlinkleft{
@@ -196,7 +196,7 @@ body{
     border-bottom: blue 3px solid;
 }
 .hotlinktwo{
-    width: 100%;
+    width: 1198px;
     height: 360px;
 
     overflow: hidden;
@@ -209,14 +209,14 @@ body{
     position: relative;
 }
 .hotlinktwo .fly1 .fly11{
-    width:94% ;
-    height: 80%;
+    width:220px ;
+    height: 134px;
     position: absolute;
     left: 0;
     bottom: 0;
     background: url("../img/go.png") no-repeat -3px;
 }
-.fly11 .zi1{
+.zi1{
     width:32px;
     height: 21px;
     font-size: 16px;
@@ -289,7 +289,7 @@ body{
 
 
 }
-.fly11:hover+zi1{
+.hotlinktwo .fly1 .fly11:hover .hotlinktwo .fly1 .fly11 .zi1{
     background-color: red;
 
 }
@@ -301,8 +301,8 @@ body{
 
 }
 .hotlinktwo .fly2 .fly21{
-    width:94% ;
-    height: 80%;
+    width:220px ;
+    height: 134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -382,8 +382,8 @@ body{
 
 }
 .hotlinktwo .fly3 .fly31{
-    width:94% ;
-    height: 80%;
+    width:220px ;
+    height: 134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -463,8 +463,8 @@ body{
 
 }
 .hotlinktwo .fly4 .fly41{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -544,8 +544,8 @@ body{
 
 }
 .hotlinktwo .fly5 .fly51{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -625,8 +625,8 @@ body{
 
 }
 .hotlinktwo .fly6 .fly61{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -706,8 +706,8 @@ body{
 
 }
 .hotlinktwo .fly7 .fly71{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -787,8 +787,8 @@ body{
 
 }
 .hotlinktwo .fly8 .fly81{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -868,8 +868,8 @@ body{
 
 }
 .hotlinktwo .fly9 .fly91{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -949,8 +949,8 @@ body{
 
 }
 .hotlinktwo .fly10 .fly101{
-    width:94% ;
-    height: 80%;
+    width:220px;
+    height:134px;
     position: absolute;
     left: 0;
     bottom: 0;
